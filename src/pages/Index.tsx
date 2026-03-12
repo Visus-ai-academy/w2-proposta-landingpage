@@ -52,8 +52,8 @@ const Index = () => {
     <div className="min-h-screen bg-background font-body">
       {/* Nav */}
       <nav className="fixed top-0 z-50 w-full border-b border-border/50 bg-background/80 backdrop-blur-xl">
-        <div className="container mx-auto flex h-16 items-center justify-between px-4">
-          <img src={logo} alt="W2 Club" className="h-10" />
+        <div className="container mx-auto flex h-28 items-center justify-between px-4">
+          <img src={logo} alt="W2 Club" className="h-full py-5 brightness-0 invert" />
           <div className="flex gap-3">
             <a href={CHECKIN_URL} target="_blank" rel="noopener noreferrer">
               <Button variant="gold" size="sm">
@@ -66,7 +66,7 @@ const Index = () => {
 
       {/* Hero */}
       <section
-        className="relative flex min-h-screen items-center pt-16"
+        className="relative flex min-h-screen items-center pt-28"
         style={{ background: "var(--gradient-hero)" }}
       >
         <div
