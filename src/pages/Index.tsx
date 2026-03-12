@@ -656,7 +656,7 @@ const Index = () => {
 
       {/* Footer */}
       <footer className="border-t border-border py-8 text-center">
-        <img src={logo} alt="W2 Club" className="mx-auto mb-3 h-8" />
+        <img src={logo} alt="W2 Club" className="mx-auto mb-3 h-8 brightness-0 invert" />
         <p className="text-xs text-muted-foreground">
           W2 Club — Transformando médicos em empresários de sucesso.
         </p>
